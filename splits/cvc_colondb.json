@@ -1,0 +1,4311 @@
+{
+ "dataset": "cvc_colondb",
+ "external_for": "kvasir_seg",
+ "created": "2026-10-20",
+ "phash_max_dist": 8,
+ "confirm_min_corr": 0.6,
+ "n_source": 380,
+ "n_kept": 380,
+ "n_excluded": 0,
+ "excluded": [],
+ "removed_internal_duplicates": [],
+ "within_set_near_duplicate_pairs": [
+  [
+   "18",
+   "33",
+   0.966
+  ],
+  [
+   "22",
+   "34",
+   0.621
+  ],
+  [
+   "98",
+   "147",
+   1.0
+  ],
+  [
+   "99",
+   "148",
+   1.0
+  ],
+  [
+   "104",
+   "137",
+   0.939
+  ],
+  [
+   "108",
+   "139",
+   1.0
+  ],
+  [
+   "109",
+   "143",
+   0.846
+  ],
+  [
+   "115",
+   "116",
+   0.618
+  ],
+  [
+   "167",
+   "168",
+   0.694
+  ],
+  [
+   "180",
+   "197",
+   0.885
+  ],
+  [
+   "183",
+   "198",
+   1.0
+  ],
+  [
+   "190",
+   "203",
+   1.0
+  ],
+  [
+   "242",
+   "245",
+   1.0
+  ],
+  [
+   "242",
+   "248",
+   1.0
+  ],
+  [
+   "242",
+   "251",
+   1.0
+  ],
+  [
+   "242",
+   "254",
+   1.0
+  ],
+  [
+   "242",
+   "257",
+   1.0
+  ],
+  [
+   "242",
+   "260",
+   1.0
+  ],
+  [
+   "242",
+   "263",
+   1.0
+  ],
+  [
+   "243",
+   "246",
+   1.0
+  ],
+  [
+   "243",
+   "249",
+   1.0
+  ],
+  [
+   "243",
+   "252",
+   1.0
+  ],
+  [
+   "243",
+   "255",
+   1.0
+  ],
+  [
+   "243",
+   "258",
+   1.0
+  ],
+  [
+   "243",
+   "261",
+   1.0
+  ],
+  [
+   "244",
+   "247",
+   1.0
+  ],
+  [
+   "244",
+   "250",
+   1.0
+  ],
+  [
+   "244",
+   "253",
+   1.0
+  ],
+  [
+   "244",
+   "256",
+   1.0
+  ],
+  [
+   "244",
+   "259",
+   1.0
+  ],
+  [
+   "244",
+   "262",
+   1.0
+  ],
+  [
+   "245",
+   "248",
+   1.0
+  ],
+  [
+   "245",
+   "251",
+   1.0
+  ],
+  [
+   "245",
+   "254",
+   1.0
+  ],
+  [
+   "245",
+   "257",
+   1.0
+  ],
+  [
+   "245",
+   "260",
+   1.0
+  ],
+  [
+   "245",
+   "263",
+   1.0
+  ],
+  [
+   "246",
+   "249",
+   1.0
+  ],
+  [
+   "246",
+   "252",
+   1.0
+  ],
+  [
+   "246",
+   "255",
+   1.0
+  ],
+  [
+   "246",
+   "258",
+   1.0
+  ],
+  [
+   "246",
+   "261",
+   1.0
+  ],
+  [
+   "247",
+   "250",
+   1.0
+  ],
+  [
+   "247",
+   "253",
+   1.0
+  ],
+  [
+   "247",
+   "256",
+   1.0
+  ],
+  [
+   "247",
+   "259",
+   1.0
+  ],
+  [
+   "247",
+   "262",
+   1.0
+  ],
+  [
+   "248",
+   "251",
+   1.0
+  ],
+  [
+   "248",
+   "254",
+   1.0
+  ],
+  [
+   "248",
+   "257",
+   1.0
+  ],
+  [
+   "248",
+   "260",
+   1.0
+  ],
+  [
+   "248",
+   "263",
+   1.0
+  ],
+  [
+   "249",
+   "252",
+   1.0
+  ],
+  [
+   "249",
+   "255",
+   1.0
+  ],
+  [
+   "249",
+   "258",
+   1.0
+  ],
+  [
+   "249",
+   "261",
+   1.0
+  ],
+  [
+   "250",
+   "253",
+   1.0
+  ],
+  [
+   "250",
+   "256",
+   1.0
+  ],
+  [
+   "250",
+   "259",
+   1.0
+  ],
+  [
+   "250",
+   "262",
+   1.0
+  ],
+  [
+   "251",
+   "254",
+   1.0
+  ],
+  [
+   "251",
+   "257",
+   1.0
+  ],
+  [
+   "251",
+   "260",
+   1.0
+  ],
+  [
+   "251",
+   "263",
+   1.0
+  ],
+  [
+   "252",
+   "255",
+   1.0
+  ],
+  [
+   "252",
+   "258",
+   1.0
+  ],
+  [
+   "252",
+   "261",
+   1.0
+  ],
+  [
+   "253",
+   "256",
+   1.0
+  ],
+  [
+   "253",
+   "259",
+   1.0
+  ],
+  [
+   "253",
+   "262",
+   1.0
+  ],
+  [
+   "254",
+   "257",
+   1.0
+  ],
+  [
+   "254",
+   "260",
+   1.0
+  ],
+  [
+   "254",
+   "263",
+   1.0
+  ],
+  [
+   "255",
+   "258",
+   1.0
+  ],
+  [
+   "255",
+   "261",
+   1.0
+  ],
+  [
+   "256",
+   "259",
+   1.0
+  ],
+  [
+   "256",
+   "262",
+   1.0
+  ],
+  [
+   "257",
+   "260",
+   1.0
+  ],
+  [
+   "257",
+   "263",
+   1.0
+  ],
+  [
+   "258",
+   "261",
+   1.0
+  ],
+  [
+   "259",
+   "262",
+   1.0
+  ],
+  [
+   "260",
+   "263",
+   1.0
+  ],
+  [
+   "264",
+   "271",
+   1.0
+  ],
+  [
+   "265",
+   "272",
+   1.0
+  ],
+  [
+   "274",
+   "294",
+   1.0
+  ],
+  [
+   "275",
+   "295",
+   1.0
+  ],
+  [
+   "276",
+   "289",
+   1.0
+  ],
+  [
+   "276",
+   "296",
+   1.0
+  ],
+  [
+   "277",
+   "297",
+   1.0
+  ],
+  [
+   "278",
+   "298",
+   1.0
+  ],
+  [
+   "279",
+   "299",
+   1.0
+  ],
+  [
+   "280",
+   "300",
+   1.0
+  ],
+  [
+   "289",
+   "296",
+   1.0
+  ],
+  [
+   "304",
+   "305",
+   0.789
+  ],
+  [
+   "341",
+   "342",
+   0.614
+  ],
+  [
+   "358",
+   "359",
+   0.8
+  ],
+  [
+   "365",
+   "366",
+   0.962
+  ],
+  [
+   "371",
+   "372",
+   0.665
+  ],
+  [
+   "376",
+   "377",
+   0.612
+  ]
+ ],
+ "items": [
+  {
+   "id": "1",
+   "src": "CVC-ColonDB/images/1.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15870126466491563207,
+   "notes": [],
+   "area_frac": 0.0050940766550522645
+  },
+  {
+   "id": "2",
+   "src": "CVC-ColonDB/images/2.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15019536222877990607,
+   "notes": [],
+   "area_frac": 0.0036689895470383275
+  },
+  {
+   "id": "3",
+   "src": "CVC-ColonDB/images/3.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14989953166345256927,
+   "notes": [],
+   "area_frac": 0.050860627177700346
+  },
+  {
+   "id": "4",
+   "src": "CVC-ColonDB/images/4.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14995076787454033604,
+   "notes": [],
+   "area_frac": 0.034184668989547036
+  },
+  {
+   "id": "5",
+   "src": "CVC-ColonDB/images/5.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15103732729829008577,
+   "notes": [],
+   "area_frac": 0.027013937282229967
+  },
+  {
+   "id": "6",
+   "src": "CVC-ColonDB/images/6.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13915308059570110146,
+   "notes": [],
+   "area_frac": 0.019247386759581882
+  },
+  {
+   "id": "7",
+   "src": "CVC-ColonDB/images/7.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14204101394198052544,
+   "notes": [],
+   "area_frac": 0.020020905923344948
+  },
+  {
+   "id": "8",
+   "src": "CVC-ColonDB/images/8.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13915844668826860480,
+   "notes": [],
+   "area_frac": 0.020219512195121952
+  },
+  {
+   "id": "9",
+   "src": "CVC-ColonDB/images/9.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14996706379833688032,
+   "notes": [],
+   "area_frac": 0.021585365853658535
+  },
+  {
+   "id": "10",
+   "src": "CVC-ColonDB/images/10.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14135413678944893637,
+   "notes": [],
+   "area_frac": 0.020989547038327526
+  },
+  {
+   "id": "11",
+   "src": "CVC-ColonDB/images/11.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10771003515092693653,
+   "notes": [],
+   "area_frac": 0.11278397212543553
+  },
+  {
+   "id": "12",
+   "src": "CVC-ColonDB/images/12.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 16149627884057411520,
+   "notes": [],
+   "area_frac": 0.031073170731707317
+  },
+  {
+   "id": "13",
+   "src": "CVC-ColonDB/images/13.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924852902712590027,
+   "notes": [],
+   "area_frac": 0.025585365853658535
+  },
+  {
+   "id": "14",
+   "src": "CVC-ColonDB/images/14.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13917550878893489554,
+   "notes": [],
+   "area_frac": 0.04797212543554007
+  },
+  {
+   "id": "15",
+   "src": "CVC-ColonDB/images/15.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15009096600623611525,
+   "notes": [],
+   "area_frac": 0.03489198606271777
+  },
+  {
+   "id": "16",
+   "src": "CVC-ColonDB/images/16.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10691919999675558868,
+   "notes": [],
+   "area_frac": 0.0924808362369338
+  },
+  {
+   "id": "17",
+   "src": "CVC-ColonDB/images/17.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15089914819489660567,
+   "notes": [],
+   "area_frac": 0.07243205574912892
+  },
+  {
+   "id": "18",
+   "src": "CVC-ColonDB/images/18.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15297327114212114053,
+   "notes": [],
+   "area_frac": 0.0503205574912892
+  },
+  {
+   "id": "19",
+   "src": "CVC-ColonDB/images/19.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15018106024602333057,
+   "notes": [],
+   "area_frac": 0.06275261324041811
+  },
+  {
+   "id": "20",
+   "src": "CVC-ColonDB/images/20.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15306057095860272020,
+   "notes": [],
+   "area_frac": 0.10368292682926829
+  },
+  {
+   "id": "21",
+   "src": "CVC-ColonDB/images/21.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13870274048725695111,
+   "notes": [],
+   "area_frac": 0.07310452961672474
+  },
+  {
+   "id": "22",
+   "src": "CVC-ColonDB/images/22.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924011574991731910,
+   "notes": [],
+   "area_frac": 0.05773867595818815
+  },
+  {
+   "id": "23",
+   "src": "CVC-ColonDB/images/23.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15350804043475009429,
+   "notes": [],
+   "area_frac": 0.05238327526132404
+  },
+  {
+   "id": "24",
+   "src": "CVC-ColonDB/images/24.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15378388432742018951,
+   "notes": [],
+   "area_frac": 0.08335191637630662
+  },
+  {
+   "id": "25",
+   "src": "CVC-ColonDB/images/25.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14995648537728265420,
+   "notes": [],
+   "area_frac": 0.032170731707317074
+  },
+  {
+   "id": "26",
+   "src": "CVC-ColonDB/images/26.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15068766173498714848,
+   "notes": [],
+   "area_frac": 0.02105574912891986
+  },
+  {
+   "id": "27",
+   "src": "CVC-ColonDB/images/27.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361605280615502804,
+   "notes": [],
+   "area_frac": 0.019557491289198606
+  },
+  {
+   "id": "28",
+   "src": "CVC-ColonDB/images/28.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10771003532272497293,
+   "notes": [],
+   "area_frac": 0.09950871080139373
+  },
+  {
+   "id": "29",
+   "src": "CVC-ColonDB/images/29.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10767643442772274837,
+   "notes": [],
+   "area_frac": 0.08495121951219513
+  },
+  {
+   "id": "30",
+   "src": "CVC-ColonDB/images/30.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13843784870548488169,
+   "notes": [],
+   "area_frac": 0.03470034843205575
+  },
+  {
+   "id": "31",
+   "src": "CVC-ColonDB/images/31.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13863512089732988306,
+   "notes": [],
+   "area_frac": 0.04426132404181184
+  },
+  {
+   "id": "32",
+   "src": "CVC-ColonDB/images/32.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13921756498119048833,
+   "notes": [],
+   "area_frac": 0.09156794425087109
+  },
+  {
+   "id": "33",
+   "src": "CVC-ColonDB/images/33.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15297329313235368581,
+   "notes": [],
+   "area_frac": 0.050313588850174215
+  },
+  {
+   "id": "34",
+   "src": "CVC-ColonDB/images/34.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924011574991666630,
+   "notes": [],
+   "area_frac": 0.06473519163763067
+  },
+  {
+   "id": "35",
+   "src": "CVC-ColonDB/images/35.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15378106957901868931,
+   "notes": [],
+   "area_frac": 0.08788850174216029
+  },
+  {
+   "id": "36",
+   "src": "CVC-ColonDB/images/36.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13852235533206372224,
+   "notes": [],
+   "area_frac": 0.06694425087108014
+  },
+  {
+   "id": "37",
+   "src": "CVC-ColonDB/images/37.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15351366993495469973,
+   "notes": [],
+   "area_frac": 0.05703484320557491
+  },
+  {
+   "id": "38",
+   "src": "CVC-ColonDB/images/38.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15369103933355424389,
+   "notes": [],
+   "area_frac": 0.07873519163763067
+  },
+  {
+   "id": "39",
+   "src": "CVC-ColonDB/images/39.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9336382428580897641,
+   "notes": [],
+   "area_frac": 0.013449477351916376
+  },
+  {
+   "id": "40",
+   "src": "CVC-ColonDB/images/40.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9339197630091520649,
+   "notes": [],
+   "area_frac": 0.030289198606271776
+  },
+  {
+   "id": "41",
+   "src": "CVC-ColonDB/images/41.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9302588371683916387,
+   "notes": [],
+   "area_frac": 0.02620905923344948
+  },
+  {
+   "id": "42",
+   "src": "CVC-ColonDB/images/42.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9624825491385644195,
+   "notes": [],
+   "area_frac": 0.018797909407665504
+  },
+  {
+   "id": "43",
+   "src": "CVC-ColonDB/images/43.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9311894341841140294,
+   "notes": [],
+   "area_frac": 0.025564459930313588
+  },
+  {
+   "id": "44",
+   "src": "CVC-ColonDB/images/44.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9339971467552712743,
+   "notes": [],
+   "area_frac": 0.010554006968641115
+  },
+  {
+   "id": "45",
+   "src": "CVC-ColonDB/images/45.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9590554788821940933,
+   "notes": [],
+   "area_frac": 0.03583275261324042
+  },
+  {
+   "id": "46",
+   "src": "CVC-ColonDB/images/46.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9303450299754952275,
+   "notes": [],
+   "area_frac": 0.022264808362369336
+  },
+  {
+   "id": "47",
+   "src": "CVC-ColonDB/images/47.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9303451137206598731,
+   "notes": [],
+   "area_frac": 0.0175609756097561
+  },
+  {
+   "id": "48",
+   "src": "CVC-ColonDB/images/48.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9590554788817747529,
+   "notes": [],
+   "area_frac": 0.02454355400696864
+  },
+  {
+   "id": "49",
+   "src": "CVC-ColonDB/images/49.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9338634675067910734,
+   "notes": [],
+   "area_frac": 0.039843205574912895
+  },
+  {
+   "id": "50",
+   "src": "CVC-ColonDB/images/50.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9339760378474821734,
+   "notes": [],
+   "area_frac": 0.00886411149825784
+  },
+  {
+   "id": "51",
+   "src": "CVC-ColonDB/images/51.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9320830111885130277,
+   "notes": [],
+   "area_frac": 0.008195121951219513
+  },
+  {
+   "id": "52",
+   "src": "CVC-ColonDB/images/52.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9302325519660299987,
+   "notes": [],
+   "area_frac": 0.020627177700348432
+  },
+  {
+   "id": "53",
+   "src": "CVC-ColonDB/images/53.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9642839339568954533,
+   "notes": [],
+   "area_frac": 0.014101045296167247
+  },
+  {
+   "id": "54",
+   "src": "CVC-ColonDB/images/54.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9338829288589981227,
+   "notes": [],
+   "area_frac": 0.015665505226480837
+  },
+  {
+   "id": "55",
+   "src": "CVC-ColonDB/images/55.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9339971604924753959,
+   "notes": [],
+   "area_frac": 0.011310104529616725
+  },
+  {
+   "id": "56",
+   "src": "CVC-ColonDB/images/56.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9604550080819190453,
+   "notes": [],
+   "area_frac": 0.010125435540069687
+  },
+  {
+   "id": "57",
+   "src": "CVC-ColonDB/images/57.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9591680701377379410,
+   "notes": [],
+   "area_frac": 0.033101045296167246
+  },
+  {
+   "id": "58",
+   "src": "CVC-ColonDB/images/58.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9599843445938469447,
+   "notes": [],
+   "area_frac": 0.03974912891986063
+  },
+  {
+   "id": "59",
+   "src": "CVC-ColonDB/images/59.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9590554788889049667,
+   "notes": [],
+   "area_frac": 0.03111498257839721
+  },
+  {
+   "id": "60",
+   "src": "CVC-ColonDB/images/60.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9627710576728029257,
+   "notes": [],
+   "area_frac": 0.01778397212543554
+  },
+  {
+   "id": "61",
+   "src": "CVC-ColonDB/images/61.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10766792506274507402,
+   "notes": [],
+   "area_frac": 0.03974912891986063
+  },
+  {
+   "id": "62",
+   "src": "CVC-ColonDB/images/62.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10766493289369926295,
+   "notes": [],
+   "area_frac": 0.14974564459930315
+  },
+  {
+   "id": "63",
+   "src": "CVC-ColonDB/images/63.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9618092980620262037,
+   "notes": [],
+   "area_frac": 0.1282299651567944
+  },
+  {
+   "id": "64",
+   "src": "CVC-ColonDB/images/64.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9618090721668332245,
+   "notes": [],
+   "area_frac": 0.11404529616724739
+  },
+  {
+   "id": "65",
+   "src": "CVC-ColonDB/images/65.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 11342392177793530580,
+   "notes": [],
+   "area_frac": 0.10362020905923346
+  },
+  {
+   "id": "66",
+   "src": "CVC-ColonDB/images/66.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9612184200502147990,
+   "notes": [],
+   "area_frac": 0.07197560975609756
+  },
+  {
+   "id": "67",
+   "src": "CVC-ColonDB/images/67.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10771016623655517829,
+   "notes": [],
+   "area_frac": 0.06082578397212544
+  },
+  {
+   "id": "68",
+   "src": "CVC-ColonDB/images/68.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10771280506442313604,
+   "notes": [],
+   "area_frac": 0.04882578397212543
+  },
+  {
+   "id": "69",
+   "src": "CVC-ColonDB/images/69.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10766780969722920641,
+   "notes": [],
+   "area_frac": 0.030477351916376308
+  },
+  {
+   "id": "70",
+   "src": "CVC-ColonDB/images/70.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10758906267445312197,
+   "notes": [],
+   "area_frac": 0.01657142857142857
+  },
+  {
+   "id": "71",
+   "src": "CVC-ColonDB/images/71.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10757780358951088099,
+   "notes": [],
+   "area_frac": 0.01845993031358885
+  },
+  {
+   "id": "72",
+   "src": "CVC-ColonDB/images/72.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10793539123183712789,
+   "notes": [],
+   "area_frac": 0.09602439024390244
+  },
+  {
+   "id": "73",
+   "src": "CVC-ColonDB/images/73.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10794374963001314875,
+   "notes": [],
+   "area_frac": 0.05291289198606272
+  },
+  {
+   "id": "74",
+   "src": "CVC-ColonDB/images/74.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10766508841128520341,
+   "notes": [],
+   "area_frac": 0.015696864111498256
+  },
+  {
+   "id": "75",
+   "src": "CVC-ColonDB/images/75.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10768747360635153053,
+   "notes": [],
+   "area_frac": 0.08815679442508711
+  },
+  {
+   "id": "76",
+   "src": "CVC-ColonDB/images/76.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9616964881354160791,
+   "notes": [],
+   "area_frac": 0.07051219512195121
+  },
+  {
+   "id": "77",
+   "src": "CVC-ColonDB/images/77.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10777476984881375795,
+   "notes": [],
+   "area_frac": 0.02361672473867596
+  },
+  {
+   "id": "78",
+   "src": "CVC-ColonDB/images/78.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10795491237362100794,
+   "notes": [],
+   "area_frac": 0.027735191637630663
+  },
+  {
+   "id": "79",
+   "src": "CVC-ColonDB/images/79.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10777485643275008634,
+   "notes": [],
+   "area_frac": 0.01649477351916376
+  },
+  {
+   "id": "80",
+   "src": "CVC-ColonDB/images/80.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10777468321923026638,
+   "notes": [],
+   "area_frac": 0.010118466898954704
+  },
+  {
+   "id": "81",
+   "src": "CVC-ColonDB/images/81.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10795482840564980638,
+   "notes": [],
+   "area_frac": 0.01021602787456446
+  },
+  {
+   "id": "82",
+   "src": "CVC-ColonDB/images/82.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10795764190979979981,
+   "notes": [],
+   "area_frac": 0.010801393728222997
+  },
+  {
+   "id": "83",
+   "src": "CVC-ColonDB/images/83.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10790697959230241734,
+   "notes": [],
+   "area_frac": 0.007038327526132405
+  },
+  {
+   "id": "84",
+   "src": "CVC-ColonDB/images/84.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10777749732076763869,
+   "notes": [],
+   "area_frac": 0.010400696864111499
+  },
+  {
+   "id": "85",
+   "src": "CVC-ColonDB/images/85.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10772964892596993575,
+   "notes": [],
+   "area_frac": 0.009114982578397213
+  },
+  {
+   "id": "86",
+   "src": "CVC-ColonDB/images/86.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10795487101296921335,
+   "notes": [],
+   "area_frac": 0.009372822299651569
+  },
+  {
+   "id": "87",
+   "src": "CVC-ColonDB/images/87.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10795482737621756471,
+   "notes": [],
+   "area_frac": 0.008473867595818816
+  },
+  {
+   "id": "88",
+   "src": "CVC-ColonDB/images/88.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10791260617258650295,
+   "notes": [],
+   "area_frac": 0.007020905923344947
+  },
+  {
+   "id": "89",
+   "src": "CVC-ColonDB/images/89.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10793516875119418037,
+   "notes": [],
+   "area_frac": 0.005832752613240418
+  },
+  {
+   "id": "90",
+   "src": "CVC-ColonDB/images/90.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10790979417166801463,
+   "notes": [],
+   "area_frac": 0.00867595818815331
+  },
+  {
+   "id": "91",
+   "src": "CVC-ColonDB/images/91.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10791542603075513909,
+   "notes": [],
+   "area_frac": 0.005059233449477352
+  },
+  {
+   "id": "92",
+   "src": "CVC-ColonDB/images/92.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15402384251168951932,
+   "notes": [],
+   "area_frac": 0.006104529616724739
+  },
+  {
+   "id": "93",
+   "src": "CVC-ColonDB/images/93.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10795232448804694801,
+   "notes": [],
+   "area_frac": 0.018372822299651568
+  },
+  {
+   "id": "94",
+   "src": "CVC-ColonDB/images/94.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10795764680740199117,
+   "notes": [],
+   "area_frac": 0.00943554006968641
+  },
+  {
+   "id": "95",
+   "src": "CVC-ColonDB/images/95.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10791005818061089479,
+   "notes": [],
+   "area_frac": 0.01900348432055749
+  },
+  {
+   "id": "96",
+   "src": "CVC-ColonDB/images/96.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10790988225875245764,
+   "notes": [],
+   "area_frac": 0.0242404181184669
+  },
+  {
+   "id": "97",
+   "src": "CVC-ColonDB/images/97.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10800839837178948247,
+   "notes": [],
+   "area_frac": 0.01964459930313589
+  },
+  {
+   "id": "98",
+   "src": "CVC-ColonDB/images/98.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 11345242052322883717,
+   "notes": [],
+   "area_frac": 0.046365853658536585
+  },
+  {
+   "id": "99",
+   "src": "CVC-ColonDB/images/99.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10768756079971432583,
+   "notes": [],
+   "area_frac": 0.06482926829268293
+  },
+  {
+   "id": "100",
+   "src": "CVC-ColonDB/images/100.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10768184329630611655,
+   "notes": [],
+   "area_frac": 0.05621254355400697
+  },
+  {
+   "id": "101",
+   "src": "CVC-ColonDB/images/101.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10750768014011366593,
+   "notes": [],
+   "area_frac": 0.04123344947735191
+  },
+  {
+   "id": "102",
+   "src": "CVC-ColonDB/images/102.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9615003460289261201,
+   "notes": [],
+   "area_frac": 0.10513937282229965
+  },
+  {
+   "id": "103",
+   "src": "CVC-ColonDB/images/103.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14202698156040600468,
+   "notes": [],
+   "area_frac": 0.13268989547038326
+  },
+  {
+   "id": "104",
+   "src": "CVC-ColonDB/images/104.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13914449370518731716,
+   "notes": [],
+   "area_frac": 0.14913937282229967
+  },
+  {
+   "id": "105",
+   "src": "CVC-ColonDB/images/105.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13914493300684959461,
+   "notes": [],
+   "area_frac": 0.11834843205574913
+  },
+  {
+   "id": "106",
+   "src": "CVC-ColonDB/images/106.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 16505440529949469636,
+   "notes": [],
+   "area_frac": 0.08876655052264808
+  },
+  {
+   "id": "107",
+   "src": "CVC-ColonDB/images/107.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15352519012486769604,
+   "notes": [],
+   "area_frac": 0.05855052264808362
+  },
+  {
+   "id": "108",
+   "src": "CVC-ColonDB/images/108.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10466190484545997767,
+   "notes": [],
+   "area_frac": 0.08025435540069686
+  },
+  {
+   "id": "109",
+   "src": "CVC-ColonDB/images/109.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10754420877408678848,
+   "notes": [],
+   "area_frac": 0.05210801393728223
+  },
+  {
+   "id": "110",
+   "src": "CVC-ColonDB/images/110.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10754139539870923456,
+   "notes": [],
+   "area_frac": 0.0710766550522648
+  },
+  {
+   "id": "111",
+   "src": "CVC-ColonDB/images/111.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9313005192459466437,
+   "notes": [],
+   "area_frac": 0.09683275261324042
+  },
+  {
+   "id": "112",
+   "src": "CVC-ColonDB/images/112.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9313288860956777185,
+   "notes": [],
+   "area_frac": 0.07178397212543554
+  },
+  {
+   "id": "113",
+   "src": "CVC-ColonDB/images/113.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9615007841187621764,
+   "notes": [],
+   "area_frac": 0.08756445993031359
+  },
+  {
+   "id": "114",
+   "src": "CVC-ColonDB/images/114.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9601474978292764608,
+   "notes": [],
+   "area_frac": 0.051317073170731704
+  },
+  {
+   "id": "115",
+   "src": "CVC-ColonDB/images/115.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10754128258431782872,
+   "notes": [],
+   "area_frac": 0.024337979094076655
+  },
+  {
+   "id": "116",
+   "src": "CVC-ColonDB/images/116.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10754128293394467792,
+   "notes": [],
+   "area_frac": 0.014020905923344948
+  },
+  {
+   "id": "117",
+   "src": "CVC-ColonDB/images/117.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10764251380816181639,
+   "notes": [],
+   "area_frac": 0.0294390243902439
+  },
+  {
+   "id": "118",
+   "src": "CVC-ColonDB/images/118.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10768747283878934663,
+   "notes": [],
+   "area_frac": 0.035198606271777004
+  },
+  {
+   "id": "119",
+   "src": "CVC-ColonDB/images/119.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10479142629375367894,
+   "notes": [],
+   "area_frac": 0.03260278745644599
+  },
+  {
+   "id": "120",
+   "src": "CVC-ColonDB/images/120.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10762277292951825302,
+   "notes": [],
+   "area_frac": 0.036522648083623696
+  },
+  {
+   "id": "121",
+   "src": "CVC-ColonDB/images/121.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9617809349906102932,
+   "notes": [],
+   "area_frac": 0.180993031358885
+  },
+  {
+   "id": "122",
+   "src": "CVC-ColonDB/images/122.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 11340999156964156316,
+   "notes": [],
+   "area_frac": 0.15633797909407665
+  },
+  {
+   "id": "123",
+   "src": "CVC-ColonDB/images/123.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 11341034268338449300,
+   "notes": [],
+   "area_frac": 0.1417282229965157
+  },
+  {
+   "id": "124",
+   "src": "CVC-ColonDB/images/124.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9313286666630598097,
+   "notes": [],
+   "area_frac": 0.11517770034843205
+  },
+  {
+   "id": "125",
+   "src": "CVC-ColonDB/images/125.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9520454448245254092,
+   "notes": [],
+   "area_frac": 0.14625783972125436
+  },
+  {
+   "id": "126",
+   "src": "CVC-ColonDB/images/126.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600109667898637525,
+   "notes": [],
+   "area_frac": 0.09744599303135888
+  },
+  {
+   "id": "127",
+   "src": "CVC-ColonDB/images/127.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9592228365061535429,
+   "notes": [],
+   "area_frac": 0.11789198606271777
+  },
+  {
+   "id": "128",
+   "src": "CVC-ColonDB/images/128.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9304281661702102721,
+   "notes": [],
+   "area_frac": 0.066
+  },
+  {
+   "id": "129",
+   "src": "CVC-ColonDB/images/129.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14216204574605605009,
+   "notes": [],
+   "area_frac": 0.13298606271777003
+  },
+  {
+   "id": "130",
+   "src": "CVC-ColonDB/images/130.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9604518521822673297,
+   "notes": [],
+   "area_frac": 0.125006968641115
+  },
+  {
+   "id": "131",
+   "src": "CVC-ColonDB/images/131.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13942660306768568000,
+   "notes": [],
+   "area_frac": 0.05311149825783972
+  },
+  {
+   "id": "132",
+   "src": "CVC-ColonDB/images/132.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 11345240952811712655,
+   "notes": [],
+   "area_frac": 0.042473867595818816
+  },
+  {
+   "id": "133",
+   "src": "CVC-ColonDB/images/133.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 11345206867950794887,
+   "notes": [],
+   "area_frac": 0.046898954703832756
+  },
+  {
+   "id": "134",
+   "src": "CVC-ColonDB/images/134.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10768782416811605185,
+   "notes": [],
+   "area_frac": 0.055449477351916375
+  },
+  {
+   "id": "135",
+   "src": "CVC-ColonDB/images/135.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10750768086887382211,
+   "notes": [],
+   "area_frac": 0.05556794425087108
+  },
+  {
+   "id": "136",
+   "src": "CVC-ColonDB/images/136.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10768782412516654273,
+   "notes": [],
+   "area_frac": 0.06546341463414634
+  },
+  {
+   "id": "137",
+   "src": "CVC-ColonDB/images/137.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15067370875125316548,
+   "notes": [],
+   "area_frac": 0.15112543554006969
+  },
+  {
+   "id": "138",
+   "src": "CVC-ColonDB/images/138.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13915619265016440497,
+   "notes": [],
+   "area_frac": 0.12794773519163763
+  },
+  {
+   "id": "139",
+   "src": "CVC-ColonDB/images/139.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10466190484545997767,
+   "notes": [],
+   "area_frac": 0.0815993031358885
+  },
+  {
+   "id": "140",
+   "src": "CVC-ColonDB/images/140.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15068593463336180417,
+   "notes": [],
+   "area_frac": 0.08009756097560976
+  },
+  {
+   "id": "141",
+   "src": "CVC-ColonDB/images/141.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15068521991758618317,
+   "notes": [],
+   "area_frac": 0.09207665505226481
+  },
+  {
+   "id": "142",
+   "src": "CVC-ColonDB/images/142.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15355907942994353869,
+   "notes": [],
+   "area_frac": 0.09125783972125436
+  },
+  {
+   "id": "143",
+   "src": "CVC-ColonDB/images/143.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10754420877542626242,
+   "notes": [],
+   "area_frac": 0.04836585365853659
+  },
+  {
+   "id": "144",
+   "src": "CVC-ColonDB/images/144.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15357047049945484485,
+   "notes": [],
+   "area_frac": 0.12218118466898954
+  },
+  {
+   "id": "145",
+   "src": "CVC-ColonDB/images/145.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15068816678071774916,
+   "notes": [],
+   "area_frac": 0.13098954703832752
+  },
+  {
+   "id": "146",
+   "src": "CVC-ColonDB/images/146.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10754420877408680640,
+   "notes": [],
+   "area_frac": 0.056926829268292685
+  },
+  {
+   "id": "147",
+   "src": "CVC-ColonDB/images/147.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 11345242052322883717,
+   "notes": [],
+   "area_frac": 0.046365853658536585
+  },
+  {
+   "id": "148",
+   "src": "CVC-ColonDB/images/148.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10768756079971432583,
+   "notes": [],
+   "area_frac": 0.06482926829268293
+  },
+  {
+   "id": "149",
+   "src": "CVC-ColonDB/images/149.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9613270896555161749,
+   "notes": [],
+   "area_frac": 0.09628919860627178
+  },
+  {
+   "id": "150",
+   "src": "CVC-ColonDB/images/150.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9599830345450601159,
+   "notes": [],
+   "area_frac": 0.07178048780487804
+  },
+  {
+   "id": "151",
+   "src": "CVC-ColonDB/images/151.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600930939978987719,
+   "notes": [],
+   "area_frac": 0.0508780487804878
+  },
+  {
+   "id": "152",
+   "src": "CVC-ColonDB/images/152.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9613521494776167045,
+   "notes": [],
+   "area_frac": 0.042348432055749126
+  },
+  {
+   "id": "153",
+   "src": "CVC-ColonDB/images/153.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13937678611493779607,
+   "notes": [],
+   "area_frac": 0.04618466898954704
+  },
+  {
+   "id": "154",
+   "src": "CVC-ColonDB/images/154.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9310863394860515264,
+   "notes": [],
+   "area_frac": 0.04138675958188153
+  },
+  {
+   "id": "155",
+   "src": "CVC-ColonDB/images/155.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10749901937263918016,
+   "notes": [],
+   "area_frac": 0.03480487804878049
+  },
+  {
+   "id": "156",
+   "src": "CVC-ColonDB/images/156.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15077781996561906624,
+   "notes": [],
+   "area_frac": 0.03059233449477352
+  },
+  {
+   "id": "157",
+   "src": "CVC-ColonDB/images/157.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15365519787192363978,
+   "notes": [],
+   "area_frac": 0.023226480836236935
+  },
+  {
+   "id": "158",
+   "src": "CVC-ColonDB/images/158.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15365519808163622856,
+   "notes": [],
+   "area_frac": 0.022634146341463414
+  },
+  {
+   "id": "159",
+   "src": "CVC-ColonDB/images/159.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15293462231456556992,
+   "notes": [],
+   "area_frac": 0.025076655052264807
+  },
+  {
+   "id": "160",
+   "src": "CVC-ColonDB/images/160.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15289512777099652050,
+   "notes": [],
+   "area_frac": 0.02132752613240418
+  },
+  {
+   "id": "161",
+   "src": "CVC-ColonDB/images/161.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15289530506708003792,
+   "notes": [],
+   "area_frac": 0.023773519163763066
+  },
+  {
+   "id": "162",
+   "src": "CVC-ColonDB/images/162.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361570233547828180,
+   "notes": [],
+   "area_frac": 0.018627177700348434
+  },
+  {
+   "id": "163",
+   "src": "CVC-ColonDB/images/163.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15366071917622078160,
+   "notes": [],
+   "area_frac": 0.0282404181184669
+  },
+  {
+   "id": "164",
+   "src": "CVC-ColonDB/images/164.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15294014186277186512,
+   "notes": [],
+   "area_frac": 0.03362020905923345
+  },
+  {
+   "id": "165",
+   "src": "CVC-ColonDB/images/165.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15294022947976916944,
+   "notes": [],
+   "area_frac": 0.04162717770034843
+  },
+  {
+   "id": "166",
+   "src": "CVC-ColonDB/images/166.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15366082719563268032,
+   "notes": [],
+   "area_frac": 0.05264808362369338
+  },
+  {
+   "id": "167",
+   "src": "CVC-ColonDB/images/167.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15294014131196280769,
+   "notes": [],
+   "area_frac": 0.028965156794425087
+  },
+  {
+   "id": "168",
+   "src": "CVC-ColonDB/images/168.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15365512065225605057,
+   "notes": [],
+   "area_frac": 0.02535540069686411
+  },
+  {
+   "id": "169",
+   "src": "CVC-ColonDB/images/169.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15366012367882174409,
+   "notes": [],
+   "area_frac": 0.039574912891986065
+  },
+  {
+   "id": "170",
+   "src": "CVC-ColonDB/images/170.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15366012367898165192,
+   "notes": [],
+   "area_frac": 0.07511149825783972
+  },
+  {
+   "id": "171",
+   "src": "CVC-ColonDB/images/171.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361570199322373586,
+   "notes": [],
+   "area_frac": 0.184198606271777
+  },
+  {
+   "id": "172",
+   "src": "CVC-ColonDB/images/172.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15073058631628566480,
+   "notes": [],
+   "area_frac": 0.027613240418118468
+  },
+  {
+   "id": "173",
+   "src": "CVC-ColonDB/images/173.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361568309536698304,
+   "notes": [],
+   "area_frac": 0.034198606271777
+  },
+  {
+   "id": "174",
+   "src": "CVC-ColonDB/images/174.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15366071874804395968,
+   "notes": [],
+   "area_frac": 0.028317073170731708
+  },
+  {
+   "id": "175",
+   "src": "CVC-ColonDB/images/175.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15366001411437178816,
+   "notes": [],
+   "area_frac": 0.042233449477351914
+  },
+  {
+   "id": "176",
+   "src": "CVC-ColonDB/images/176.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361498911456964292,
+   "notes": [],
+   "area_frac": 0.044362369337979095
+  },
+  {
+   "id": "177",
+   "src": "CVC-ColonDB/images/177.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361218364193319896,
+   "notes": [],
+   "area_frac": 0.02694076655052265
+  },
+  {
+   "id": "178",
+   "src": "CVC-ColonDB/images/178.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15360477602459823808,
+   "notes": [],
+   "area_frac": 0.02594425087108014
+  },
+  {
+   "id": "179",
+   "src": "CVC-ColonDB/images/179.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15365792366790261696,
+   "notes": [],
+   "area_frac": 0.027853658536585366
+  },
+  {
+   "id": "180",
+   "src": "CVC-ColonDB/images/180.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15366071909165895616,
+   "notes": [],
+   "area_frac": 0.04770731707317073
+  },
+  {
+   "id": "181",
+   "src": "CVC-ColonDB/images/181.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15366071884468005568,
+   "notes": [],
+   "area_frac": 0.03487804878048781
+  },
+  {
+   "id": "182",
+   "src": "CVC-ColonDB/images/182.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15366071880173039296,
+   "notes": [],
+   "area_frac": 0.026815331010452963
+  },
+  {
+   "id": "183",
+   "src": "CVC-ColonDB/images/183.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10754104382876630721,
+   "notes": [],
+   "area_frac": 0.02029616724738676
+  },
+  {
+   "id": "184",
+   "src": "CVC-ColonDB/images/184.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15365722102331355073,
+   "notes": [],
+   "area_frac": 0.022536585365853658
+  },
+  {
+   "id": "185",
+   "src": "CVC-ColonDB/images/185.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15365722136689786817,
+   "notes": [],
+   "area_frac": 0.011142857142857144
+  },
+  {
+   "id": "186",
+   "src": "CVC-ColonDB/images/186.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15365719936593244097,
+   "notes": [],
+   "area_frac": 0.013585365853658537
+  },
+  {
+   "id": "187",
+   "src": "CVC-ColonDB/images/187.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361498740059348944,
+   "notes": [],
+   "area_frac": 0.015170731707317073
+  },
+  {
+   "id": "188",
+   "src": "CVC-ColonDB/images/188.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15366001501732155079,
+   "notes": [],
+   "area_frac": 0.014344947735191637
+  },
+  {
+   "id": "189",
+   "src": "CVC-ColonDB/images/189.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14208578609573609156,
+   "notes": [],
+   "area_frac": 0.029445993031358884
+  },
+  {
+   "id": "190",
+   "src": "CVC-ColonDB/images/190.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14208576410250788561,
+   "notes": [],
+   "area_frac": 0.023177700348432057
+  },
+  {
+   "id": "191",
+   "src": "CVC-ColonDB/images/191.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361570233682045889,
+   "notes": [],
+   "area_frac": 0.04010801393728223
+  },
+  {
+   "id": "192",
+   "src": "CVC-ColonDB/images/192.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15366071599926554560,
+   "notes": [],
+   "area_frac": 0.03450522648083624
+  },
+  {
+   "id": "193",
+   "src": "CVC-ColonDB/images/193.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15293952613641630673,
+   "notes": [],
+   "area_frac": 0.03838327526132404
+  },
+  {
+   "id": "194",
+   "src": "CVC-ColonDB/images/194.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361498911456964292,
+   "notes": [],
+   "area_frac": 0.04166550522648084
+  },
+  {
+   "id": "195",
+   "src": "CVC-ColonDB/images/195.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361286533780679633,
+   "notes": [],
+   "area_frac": 0.026407665505226482
+  },
+  {
+   "id": "196",
+   "src": "CVC-ColonDB/images/196.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10752980448456293313,
+   "notes": [],
+   "area_frac": 0.027557491289198606
+  },
+  {
+   "id": "197",
+   "src": "CVC-ColonDB/images/197.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15366071909165895616,
+   "notes": [],
+   "area_frac": 0.052909407665505226
+  },
+  {
+   "id": "198",
+   "src": "CVC-ColonDB/images/198.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10754104382876630721,
+   "notes": [],
+   "area_frac": 0.018334494773519165
+  },
+  {
+   "id": "199",
+   "src": "CVC-ColonDB/images/199.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15365722098036194257,
+   "notes": [],
+   "area_frac": 0.0272404181184669
+  },
+  {
+   "id": "200",
+   "src": "CVC-ColonDB/images/200.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361498740058832833,
+   "notes": [],
+   "area_frac": 0.016275261324041813
+  },
+  {
+   "id": "201",
+   "src": "CVC-ColonDB/images/201.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15363468261367574467,
+   "notes": [],
+   "area_frac": 0.01270731707317073
+  },
+  {
+   "id": "202",
+   "src": "CVC-ColonDB/images/202.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361286834561825744,
+   "notes": [],
+   "area_frac": 0.03479442508710801
+  },
+  {
+   "id": "203",
+   "src": "CVC-ColonDB/images/203.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14208576410250788561,
+   "notes": [],
+   "area_frac": 0.024616724738675957
+  },
+  {
+   "id": "204",
+   "src": "CVC-ColonDB/images/204.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9599509005178910405,
+   "notes": [],
+   "area_frac": 0.014533101045296168
+  },
+  {
+   "id": "205",
+   "src": "CVC-ColonDB/images/205.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600687672163122019,
+   "notes": [],
+   "area_frac": 0.008250871080139372
+  },
+  {
+   "id": "206",
+   "src": "CVC-ColonDB/images/206.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9598981470637092377,
+   "notes": [],
+   "area_frac": 0.007644599303135888
+  },
+  {
+   "id": "207",
+   "src": "CVC-ColonDB/images/207.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600916380312941255,
+   "notes": [],
+   "area_frac": 0.010501742160278745
+  },
+  {
+   "id": "208",
+   "src": "CVC-ColonDB/images/208.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9598981479227026969,
+   "notes": [],
+   "area_frac": 0.005466898954703833
+  },
+  {
+   "id": "209",
+   "src": "CVC-ColonDB/images/209.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10765941299087243958,
+   "notes": [],
+   "area_frac": 0.009229965156794424
+  },
+  {
+   "id": "210",
+   "src": "CVC-ColonDB/images/210.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10753591820806415508,
+   "notes": [],
+   "area_frac": 0.02075609756097561
+  },
+  {
+   "id": "211",
+   "src": "CVC-ColonDB/images/211.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10772170268620310156,
+   "notes": [],
+   "area_frac": 0.023449477351916378
+  },
+  {
+   "id": "212",
+   "src": "CVC-ColonDB/images/212.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10753608962692968090,
+   "notes": [],
+   "area_frac": 0.04422648083623693
+  },
+  {
+   "id": "213",
+   "src": "CVC-ColonDB/images/213.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10753608962692968090,
+   "notes": [],
+   "area_frac": 0.04066202090592334
+  },
+  {
+   "id": "214",
+   "src": "CVC-ColonDB/images/214.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10753046012806721164,
+   "notes": [],
+   "area_frac": 0.031233449477351915
+  },
+  {
+   "id": "215",
+   "src": "CVC-ColonDB/images/215.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9591048142810334885,
+   "notes": [],
+   "area_frac": 0.03289547038327526
+  },
+  {
+   "id": "216",
+   "src": "CVC-ColonDB/images/216.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9591048074090858157,
+   "notes": [],
+   "area_frac": 0.03943205574912892
+  },
+  {
+   "id": "217",
+   "src": "CVC-ColonDB/images/217.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9311894957084211909,
+   "notes": [],
+   "area_frac": 0.026606271777003483
+  },
+  {
+   "id": "218",
+   "src": "CVC-ColonDB/images/218.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600054418980633733,
+   "notes": [],
+   "area_frac": 0.06968641114982578
+  },
+  {
+   "id": "219",
+   "src": "CVC-ColonDB/images/219.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600054693556479687,
+   "notes": [],
+   "area_frac": 0.06106968641114983
+  },
+  {
+   "id": "220",
+   "src": "CVC-ColonDB/images/220.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9618069091948785292,
+   "notes": [],
+   "area_frac": 0.040334494773519164
+  },
+  {
+   "id": "221",
+   "src": "CVC-ColonDB/images/221.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13922991296334740444,
+   "notes": [],
+   "area_frac": 0.04127177700348432
+  },
+  {
+   "id": "222",
+   "src": "CVC-ColonDB/images/222.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9312990584469798595,
+   "notes": [],
+   "area_frac": 0.04207317073170732
+  },
+  {
+   "id": "223",
+   "src": "CVC-ColonDB/images/223.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9312968560414310089,
+   "notes": [],
+   "area_frac": 0.03832404181184669
+  },
+  {
+   "id": "224",
+   "src": "CVC-ColonDB/images/224.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600353451582169028,
+   "notes": [],
+   "area_frac": 0.01818815331010453
+  },
+  {
+   "id": "225",
+   "src": "CVC-ColonDB/images/225.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9329873556773289697,
+   "notes": [],
+   "area_frac": 0.010752613240418119
+  },
+  {
+   "id": "226",
+   "src": "CVC-ColonDB/images/226.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9312441000990359235,
+   "notes": [],
+   "area_frac": 0.04217770034843205
+  },
+  {
+   "id": "227",
+   "src": "CVC-ColonDB/images/227.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9312441035349049027,
+   "notes": [],
+   "area_frac": 0.18509407665505226
+  },
+  {
+   "id": "228",
+   "src": "CVC-ColonDB/images/228.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13923281529334677187,
+   "notes": [],
+   "area_frac": 0.18993031358885018
+  },
+  {
+   "id": "229",
+   "src": "CVC-ColonDB/images/229.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924074242841853635,
+   "notes": [],
+   "area_frac": 0.08273519163763066
+  },
+  {
+   "id": "230",
+   "src": "CVC-ColonDB/images/230.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924355717835406482,
+   "notes": [],
+   "area_frac": 0.053222996515679445
+  },
+  {
+   "id": "231",
+   "src": "CVC-ColonDB/images/231.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13941508167943944837,
+   "notes": [],
+   "area_frac": 0.023829268292682927
+  },
+  {
+   "id": "232",
+   "src": "CVC-ColonDB/images/232.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9339478693052956354,
+   "notes": [],
+   "area_frac": 0.04610801393728223
+  },
+  {
+   "id": "233",
+   "src": "CVC-ColonDB/images/233.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9303714933113896547,
+   "notes": [],
+   "area_frac": 0.05224738675958188
+  },
+  {
+   "id": "234",
+   "src": "CVC-ColonDB/images/234.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13923476142892809365,
+   "notes": [],
+   "area_frac": 0.04273519163763066
+  },
+  {
+   "id": "235",
+   "src": "CVC-ColonDB/images/235.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9340041647043656912,
+   "notes": [],
+   "area_frac": 0.02642857142857143
+  },
+  {
+   "id": "236",
+   "src": "CVC-ColonDB/images/236.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9312441207131029185,
+   "notes": [],
+   "area_frac": 0.0695191637630662
+  },
+  {
+   "id": "237",
+   "src": "CVC-ColonDB/images/237.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924143512074468551,
+   "notes": [],
+   "area_frac": 0.11727874564459931
+  },
+  {
+   "id": "238",
+   "src": "CVC-ColonDB/images/238.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924127019416698563,
+   "notes": [],
+   "area_frac": 0.10398606271777003
+  },
+  {
+   "id": "239",
+   "src": "CVC-ColonDB/images/239.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924109564132736707,
+   "notes": [],
+   "area_frac": 0.072
+  },
+  {
+   "id": "240",
+   "src": "CVC-ColonDB/images/240.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924584003937205889,
+   "notes": [],
+   "area_frac": 0.05409059233449477
+  },
+  {
+   "id": "241",
+   "src": "CVC-ColonDB/images/241.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9329936568502287043,
+   "notes": [],
+   "area_frac": 0.037993031358885015
+  },
+  {
+   "id": "242",
+   "src": "CVC-ColonDB/images/242.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600688969293642978,
+   "notes": [],
+   "area_frac": 0.03423693379790941
+  },
+  {
+   "id": "243",
+   "src": "CVC-ColonDB/images/243.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9618034732073053833,
+   "notes": [],
+   "area_frac": 0.027449477351916378
+  },
+  {
+   "id": "244",
+   "src": "CVC-ColonDB/images/244.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9604720832023198341,
+   "notes": [],
+   "area_frac": 0.02751219512195122
+  },
+  {
+   "id": "245",
+   "src": "CVC-ColonDB/images/245.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600688969293642978,
+   "notes": [],
+   "area_frac": 0.03423693379790941
+  },
+  {
+   "id": "246",
+   "src": "CVC-ColonDB/images/246.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9618034732073053833,
+   "notes": [],
+   "area_frac": 0.027449477351916378
+  },
+  {
+   "id": "247",
+   "src": "CVC-ColonDB/images/247.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9604720832023198341,
+   "notes": [],
+   "area_frac": 0.02751219512195122
+  },
+  {
+   "id": "248",
+   "src": "CVC-ColonDB/images/248.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600688969293642978,
+   "notes": [],
+   "area_frac": 0.03423693379790941
+  },
+  {
+   "id": "249",
+   "src": "CVC-ColonDB/images/249.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9618034732073053833,
+   "notes": [],
+   "area_frac": 0.027449477351916378
+  },
+  {
+   "id": "250",
+   "src": "CVC-ColonDB/images/250.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9604720832023198341,
+   "notes": [],
+   "area_frac": 0.02751219512195122
+  },
+  {
+   "id": "251",
+   "src": "CVC-ColonDB/images/251.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600688969293642978,
+   "notes": [],
+   "area_frac": 0.03423693379790941
+  },
+  {
+   "id": "252",
+   "src": "CVC-ColonDB/images/252.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9618034732073053833,
+   "notes": [],
+   "area_frac": 0.027449477351916378
+  },
+  {
+   "id": "253",
+   "src": "CVC-ColonDB/images/253.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9604720832023198341,
+   "notes": [],
+   "area_frac": 0.02751219512195122
+  },
+  {
+   "id": "254",
+   "src": "CVC-ColonDB/images/254.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600688969293642978,
+   "notes": [],
+   "area_frac": 0.03423693379790941
+  },
+  {
+   "id": "255",
+   "src": "CVC-ColonDB/images/255.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9618034732073053833,
+   "notes": [],
+   "area_frac": 0.027449477351916378
+  },
+  {
+   "id": "256",
+   "src": "CVC-ColonDB/images/256.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9604720832023198341,
+   "notes": [],
+   "area_frac": 0.02751219512195122
+  },
+  {
+   "id": "257",
+   "src": "CVC-ColonDB/images/257.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600688969293642978,
+   "notes": [],
+   "area_frac": 0.03423693379790941
+  },
+  {
+   "id": "258",
+   "src": "CVC-ColonDB/images/258.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9618034732073053833,
+   "notes": [],
+   "area_frac": 0.027449477351916378
+  },
+  {
+   "id": "259",
+   "src": "CVC-ColonDB/images/259.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9604720832023198341,
+   "notes": [],
+   "area_frac": 0.02751219512195122
+  },
+  {
+   "id": "260",
+   "src": "CVC-ColonDB/images/260.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600688969293642978,
+   "notes": [],
+   "area_frac": 0.03423693379790941
+  },
+  {
+   "id": "261",
+   "src": "CVC-ColonDB/images/261.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9618034732073053833,
+   "notes": [],
+   "area_frac": 0.027449477351916378
+  },
+  {
+   "id": "262",
+   "src": "CVC-ColonDB/images/262.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9604720832023198341,
+   "notes": [],
+   "area_frac": 0.02751219512195122
+  },
+  {
+   "id": "263",
+   "src": "CVC-ColonDB/images/263.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600688969293642978,
+   "notes": [],
+   "area_frac": 0.03423693379790941
+  },
+  {
+   "id": "264",
+   "src": "CVC-ColonDB/images/264.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13839287786718109428,
+   "notes": [],
+   "area_frac": 0.014090592334494773
+  },
+  {
+   "id": "265",
+   "src": "CVC-ColonDB/images/265.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13850585217105737664,
+   "notes": [],
+   "area_frac": 0.013818815331010453
+  },
+  {
+   "id": "266",
+   "src": "CVC-ColonDB/images/266.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15356466476799106044,
+   "notes": [],
+   "area_frac": 0.03661324041811847
+  },
+  {
+   "id": "267",
+   "src": "CVC-ColonDB/images/267.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10778567781675662952,
+   "notes": [],
+   "area_frac": 0.008571428571428572
+  },
+  {
+   "id": "268",
+   "src": "CVC-ColonDB/images/268.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 11910356007285902993,
+   "notes": [],
+   "area_frac": 0.009951219512195122
+  },
+  {
+   "id": "269",
+   "src": "CVC-ColonDB/images/269.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14992207160756682720,
+   "notes": [],
+   "area_frac": 0.01726829268292683
+  },
+  {
+   "id": "270",
+   "src": "CVC-ColonDB/images/270.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13839333983238950896,
+   "notes": [],
+   "area_frac": 0.05750522648083624
+  },
+  {
+   "id": "271",
+   "src": "CVC-ColonDB/images/271.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13839287786718109428,
+   "notes": [],
+   "area_frac": 0.014090592334494773
+  },
+  {
+   "id": "272",
+   "src": "CVC-ColonDB/images/272.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13850585217105737664,
+   "notes": [],
+   "area_frac": 0.013818815331010453
+  },
+  {
+   "id": "273",
+   "src": "CVC-ColonDB/images/273.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13843890273659666400,
+   "notes": [],
+   "area_frac": 0.019519163763066203
+  },
+  {
+   "id": "274",
+   "src": "CVC-ColonDB/images/274.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13923510194467520448,
+   "notes": [],
+   "area_frac": 0.0832822299651568
+  },
+  {
+   "id": "275",
+   "src": "CVC-ColonDB/images/275.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924073148648537795,
+   "notes": [],
+   "area_frac": 0.09361324041811847
+  },
+  {
+   "id": "276",
+   "src": "CVC-ColonDB/images/276.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924654784998031043,
+   "notes": [],
+   "area_frac": 0.12322996515679442
+  },
+  {
+   "id": "277",
+   "src": "CVC-ColonDB/images/277.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924039058486541959,
+   "notes": [],
+   "area_frac": 0.07992334494773519
+  },
+  {
+   "id": "278",
+   "src": "CVC-ColonDB/images/278.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13941525417142795975,
+   "notes": [],
+   "area_frac": 0.0509198606271777
+  },
+  {
+   "id": "279",
+   "src": "CVC-ColonDB/images/279.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924672377167621840,
+   "notes": [],
+   "area_frac": 0.06713588850174217
+  },
+  {
+   "id": "280",
+   "src": "CVC-ColonDB/images/280.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9312986496178929283,
+   "notes": [],
+   "area_frac": 0.05695818815331011
+  },
+  {
+   "id": "281",
+   "src": "CVC-ColonDB/images/281.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9312986496178929345,
+   "notes": [],
+   "area_frac": 0.052735191637630664
+  },
+  {
+   "id": "282",
+   "src": "CVC-ColonDB/images/282.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9313021130795203267,
+   "notes": [],
+   "area_frac": 0.032508710801393725
+  },
+  {
+   "id": "283",
+   "src": "CVC-ColonDB/images/283.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9313020581056102084,
+   "notes": [],
+   "area_frac": 0.031470383275261325
+  },
+  {
+   "id": "284",
+   "src": "CVC-ColonDB/images/284.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9313020035578539667,
+   "notes": [],
+   "area_frac": 0.062087108013937284
+  },
+  {
+   "id": "285",
+   "src": "CVC-ColonDB/images/285.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9331034176390981001,
+   "notes": [],
+   "area_frac": 0.07836236933797909
+  },
+  {
+   "id": "286",
+   "src": "CVC-ColonDB/images/286.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9329908359173846673,
+   "notes": [],
+   "area_frac": 0.11997560975609756
+  },
+  {
+   "id": "287",
+   "src": "CVC-ColonDB/images/287.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13922947283151830151,
+   "notes": [],
+   "area_frac": 0.09287108013937283
+  },
+  {
+   "id": "288",
+   "src": "CVC-ColonDB/images/288.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924636107158599616,
+   "notes": [],
+   "area_frac": 0.10163414634146341
+  },
+  {
+   "id": "289",
+   "src": "CVC-ColonDB/images/289.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924654784998031043,
+   "notes": [],
+   "area_frac": 0.11090592334494774
+  },
+  {
+   "id": "290",
+   "src": "CVC-ColonDB/images/290.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924672514606251651,
+   "notes": [],
+   "area_frac": 0.07298954703832752
+  },
+  {
+   "id": "291",
+   "src": "CVC-ColonDB/images/291.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924672518917994113,
+   "notes": [],
+   "area_frac": 0.0723623693379791
+  },
+  {
+   "id": "292",
+   "src": "CVC-ColonDB/images/292.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14212550909598121667,
+   "notes": [],
+   "area_frac": 0.04949128919860627
+  },
+  {
+   "id": "293",
+   "src": "CVC-ColonDB/images/293.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9600917667745775298,
+   "notes": [],
+   "area_frac": 0.07152961672473868
+  },
+  {
+   "id": "294",
+   "src": "CVC-ColonDB/images/294.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13923510194467520448,
+   "notes": [],
+   "area_frac": 0.0832822299651568
+  },
+  {
+   "id": "295",
+   "src": "CVC-ColonDB/images/295.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924073148648537795,
+   "notes": [],
+   "area_frac": 0.09361324041811847
+  },
+  {
+   "id": "296",
+   "src": "CVC-ColonDB/images/296.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924654784998031043,
+   "notes": [],
+   "area_frac": 0.12322996515679442
+  },
+  {
+   "id": "297",
+   "src": "CVC-ColonDB/images/297.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924039058486541959,
+   "notes": [],
+   "area_frac": 0.07992334494773519
+  },
+  {
+   "id": "298",
+   "src": "CVC-ColonDB/images/298.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13941525417142795975,
+   "notes": [],
+   "area_frac": 0.0509198606271777
+  },
+  {
+   "id": "299",
+   "src": "CVC-ColonDB/images/299.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924672377167621840,
+   "notes": [],
+   "area_frac": 0.06713588850174217
+  },
+  {
+   "id": "300",
+   "src": "CVC-ColonDB/images/300.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9312986496178929283,
+   "notes": [],
+   "area_frac": 0.05695818815331011
+  },
+  {
+   "id": "301",
+   "src": "CVC-ColonDB/images/301.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15071035544707687113,
+   "notes": [],
+   "area_frac": 0.32186062717770036
+  },
+  {
+   "id": "302",
+   "src": "CVC-ColonDB/images/302.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15306363623585181636,
+   "notes": [],
+   "area_frac": 0.5285783972125435
+  },
+  {
+   "id": "303",
+   "src": "CVC-ColonDB/images/303.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15306363614995377093,
+   "notes": [],
+   "area_frac": 0.5229372822299652
+  },
+  {
+   "id": "304",
+   "src": "CVC-ColonDB/images/304.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361603090182384080,
+   "notes": [],
+   "area_frac": 0.49446341463414634
+  },
+  {
+   "id": "305",
+   "src": "CVC-ColonDB/images/305.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361603090184481216,
+   "notes": [],
+   "area_frac": 0.47794076655052264
+  },
+  {
+   "id": "306",
+   "src": "CVC-ColonDB/images/306.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361603090050199488,
+   "notes": [],
+   "area_frac": 0.40061672473867593
+  },
+  {
+   "id": "307",
+   "src": "CVC-ColonDB/images/307.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15289545496146292672,
+   "notes": [],
+   "area_frac": 0.2875644599303136
+  },
+  {
+   "id": "308",
+   "src": "CVC-ColonDB/images/308.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15361568159297453766,
+   "notes": [],
+   "area_frac": 0.3905226480836237
+  },
+  {
+   "id": "309",
+   "src": "CVC-ColonDB/images/309.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 17298116153486086128,
+   "notes": [],
+   "area_frac": 0.2295923344947735
+  },
+  {
+   "id": "310",
+   "src": "CVC-ColonDB/images/310.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10766457129591728517,
+   "notes": [],
+   "area_frac": 0.6315261324041812
+  },
+  {
+   "id": "311",
+   "src": "CVC-ColonDB/images/311.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15091281929730617232,
+   "notes": [],
+   "area_frac": 0.4034738675958188
+  },
+  {
+   "id": "312",
+   "src": "CVC-ColonDB/images/312.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15001209933024538577,
+   "notes": [],
+   "area_frac": 0.39001045296167247
+  },
+  {
+   "id": "313",
+   "src": "CVC-ColonDB/images/313.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15005721005624599505,
+   "notes": [],
+   "area_frac": 0.2982961672473868
+  },
+  {
+   "id": "314",
+   "src": "CVC-ColonDB/images/314.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 17302549388614049760,
+   "notes": [],
+   "area_frac": 0.3290278745644599
+  },
+  {
+   "id": "315",
+   "src": "CVC-ColonDB/images/315.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15072711203249928402,
+   "notes": [],
+   "area_frac": 0.24845296167247385
+  },
+  {
+   "id": "316",
+   "src": "CVC-ColonDB/images/316.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10752995911287274133,
+   "notes": [],
+   "area_frac": 0.18005923344947736
+  },
+  {
+   "id": "317",
+   "src": "CVC-ColonDB/images/317.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15073267557496270800,
+   "notes": [],
+   "area_frac": 0.31349128919860625
+  },
+  {
+   "id": "318",
+   "src": "CVC-ColonDB/images/318.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15287260707056201688,
+   "notes": [],
+   "area_frac": 0.383198606271777
+  },
+  {
+   "id": "319",
+   "src": "CVC-ColonDB/images/319.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14992273114325257200,
+   "notes": [],
+   "area_frac": 0.307808362369338
+  },
+  {
+   "id": "320",
+   "src": "CVC-ColonDB/images/320.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15280503524668681200,
+   "notes": [],
+   "area_frac": 0.2898745644599303
+  },
+  {
+   "id": "321",
+   "src": "CVC-ColonDB/images/321.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13924928794902740928,
+   "notes": [],
+   "area_frac": 0.2905644599303136
+  },
+  {
+   "id": "322",
+   "src": "CVC-ColonDB/images/322.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14132070222281120736,
+   "notes": [],
+   "area_frac": 0.4703344947735192
+  },
+  {
+   "id": "323",
+   "src": "CVC-ColonDB/images/323.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 17294674123942607766,
+   "notes": [],
+   "area_frac": 0.27501742160278747
+  },
+  {
+   "id": "324",
+   "src": "CVC-ColonDB/images/324.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15341531404025611837,
+   "notes": [],
+   "area_frac": 0.13676655052264808
+  },
+  {
+   "id": "325",
+   "src": "CVC-ColonDB/images/325.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15405482395907482549,
+   "notes": [],
+   "area_frac": 0.1798745644599303
+  },
+  {
+   "id": "326",
+   "src": "CVC-ColonDB/images/326.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14180640843969736429,
+   "notes": [],
+   "area_frac": 0.15496864111498257
+  },
+  {
+   "id": "327",
+   "src": "CVC-ColonDB/images/327.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13879602566141325289,
+   "notes": [],
+   "area_frac": 0.1483205574912892
+  },
+  {
+   "id": "328",
+   "src": "CVC-ColonDB/images/328.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15049411675989937138,
+   "notes": [],
+   "area_frac": 0.22105923344947734
+  },
+  {
+   "id": "329",
+   "src": "CVC-ColonDB/images/329.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15030359605938699158,
+   "notes": [],
+   "area_frac": 0.19092682926829269
+  },
+  {
+   "id": "330",
+   "src": "CVC-ColonDB/images/330.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13876213038842590820,
+   "notes": [],
+   "area_frac": 0.3555853658536585
+  },
+  {
+   "id": "331",
+   "src": "CVC-ColonDB/images/331.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14141092780339765184,
+   "notes": [],
+   "area_frac": 0.2816794425087108
+  },
+  {
+   "id": "332",
+   "src": "CVC-ColonDB/images/332.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13850542336201536199,
+   "notes": [],
+   "area_frac": 0.42105574912891985
+  },
+  {
+   "id": "333",
+   "src": "CVC-ColonDB/images/333.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 17302580054780813264,
+   "notes": [],
+   "area_frac": 0.2257177700348432
+  },
+  {
+   "id": "334",
+   "src": "CVC-ColonDB/images/334.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 17295826944570713053,
+   "notes": [],
+   "area_frac": 0.23426829268292684
+  },
+  {
+   "id": "335",
+   "src": "CVC-ColonDB/images/335.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14140233980617363096,
+   "notes": [],
+   "area_frac": 0.3745679442508711
+  },
+  {
+   "id": "336",
+   "src": "CVC-ColonDB/images/336.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13963752481348087352,
+   "notes": [],
+   "area_frac": 0.36867247386759583
+  },
+  {
+   "id": "337",
+   "src": "CVC-ColonDB/images/337.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13963752482421827100,
+   "notes": [],
+   "area_frac": 0.3839059233449477
+  },
+  {
+   "id": "338",
+   "src": "CVC-ColonDB/images/338.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14771566844563430259,
+   "notes": [],
+   "area_frac": 0.3703240418118467
+  },
+  {
+   "id": "339",
+   "src": "CVC-ColonDB/images/339.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 14181332801771677407,
+   "notes": [],
+   "area_frac": 0.33561672473867593
+  },
+  {
+   "id": "340",
+   "src": "CVC-ColonDB/images/340.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13925060774920265408,
+   "notes": [],
+   "area_frac": 0.2757142857142857
+  },
+  {
+   "id": "341",
+   "src": "CVC-ColonDB/images/341.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10772426459567440849,
+   "notes": [],
+   "area_frac": 0.00435191637630662
+  },
+  {
+   "id": "342",
+   "src": "CVC-ColonDB/images/342.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10770174642557119441,
+   "notes": [],
+   "area_frac": 0.0029825783972125437
+  },
+  {
+   "id": "343",
+   "src": "CVC-ColonDB/images/343.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10758610198872735378,
+   "notes": [],
+   "area_frac": 0.012557491289198607
+  },
+  {
+   "id": "344",
+   "src": "CVC-ColonDB/images/344.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10740876888492887762,
+   "notes": [],
+   "area_frac": 0.010606271777003485
+  },
+  {
+   "id": "345",
+   "src": "CVC-ColonDB/images/345.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10740874825769963220,
+   "notes": [],
+   "area_frac": 0.007996515679442508
+  },
+  {
+   "id": "346",
+   "src": "CVC-ColonDB/images/346.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10793811634261665685,
+   "notes": [],
+   "area_frac": 0.020013937282229964
+  },
+  {
+   "id": "347",
+   "src": "CVC-ColonDB/images/347.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15405206998781020923,
+   "notes": [],
+   "area_frac": 0.02386062717770035
+  },
+  {
+   "id": "348",
+   "src": "CVC-ColonDB/images/348.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15405206998531845557,
+   "notes": [],
+   "area_frac": 0.0184006968641115
+  },
+  {
+   "id": "349",
+   "src": "CVC-ColonDB/images/349.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15410793067283360595,
+   "notes": [],
+   "area_frac": 0.014501742160278745
+  },
+  {
+   "id": "350",
+   "src": "CVC-ColonDB/images/350.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10751608374310805348,
+   "notes": [],
+   "area_frac": 0.015289198606271776
+  },
+  {
+   "id": "351",
+   "src": "CVC-ColonDB/images/351.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15405207548216414109,
+   "notes": [],
+   "area_frac": 0.008466898954703832
+  },
+  {
+   "id": "352",
+   "src": "CVC-ColonDB/images/352.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 15405207617741197197,
+   "notes": [],
+   "area_frac": 0.008156794425087108
+  },
+  {
+   "id": "353",
+   "src": "CVC-ColonDB/images/353.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10793792082798251703,
+   "notes": [],
+   "area_frac": 0.006404181184668989
+  },
+  {
+   "id": "354",
+   "src": "CVC-ColonDB/images/354.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10793794126951034551,
+   "notes": [],
+   "area_frac": 0.006240418118466899
+  },
+  {
+   "id": "355",
+   "src": "CVC-ColonDB/images/355.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10790979381780446775,
+   "notes": [],
+   "area_frac": 0.004857142857142857
+  },
+  {
+   "id": "356",
+   "src": "CVC-ColonDB/images/356.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10792109680673316442,
+   "notes": [],
+   "area_frac": 0.004637630662020906
+  },
+  {
+   "id": "357",
+   "src": "CVC-ColonDB/images/357.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10801130378800426614,
+   "notes": [],
+   "area_frac": 0.004334494773519164
+  },
+  {
+   "id": "358",
+   "src": "CVC-ColonDB/images/358.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10774090575395584855,
+   "notes": [],
+   "area_frac": 0.003996515679442508
+  },
+  {
+   "id": "359",
+   "src": "CVC-ColonDB/images/359.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10774091125033953879,
+   "notes": [],
+   "area_frac": 0.004149825783972125
+  },
+  {
+   "id": "360",
+   "src": "CVC-ColonDB/images/360.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10806465127907422869,
+   "notes": [],
+   "area_frac": 0.003996515679442508
+  },
+  {
+   "id": "361",
+   "src": "CVC-ColonDB/images/361.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 9597833422115531742,
+   "notes": [],
+   "area_frac": 0.03402439024390244
+  },
+  {
+   "id": "362",
+   "src": "CVC-ColonDB/images/362.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10752725251559549654,
+   "notes": [],
+   "area_frac": 0.025773519163763067
+  },
+  {
+   "id": "363",
+   "src": "CVC-ColonDB/images/363.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10761719265265805972,
+   "notes": [],
+   "area_frac": 0.018101045296167247
+  },
+  {
+   "id": "364",
+   "src": "CVC-ColonDB/images/364.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10756942969575930517,
+   "notes": [],
+   "area_frac": 0.012529616724738676
+  },
+  {
+   "id": "365",
+   "src": "CVC-ColonDB/images/365.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10756943038293306007,
+   "notes": [],
+   "area_frac": 0.011951219512195122
+  },
+  {
+   "id": "366",
+   "src": "CVC-ColonDB/images/366.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10756943038293306007,
+   "notes": [],
+   "area_frac": 0.011425087108013937
+  },
+  {
+   "id": "367",
+   "src": "CVC-ColonDB/images/367.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10758631888152521365,
+   "notes": [],
+   "area_frac": 0.011930313588850175
+  },
+  {
+   "id": "368",
+   "src": "CVC-ColonDB/images/368.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10758627490106010263,
+   "notes": [],
+   "area_frac": 0.010184668989547039
+  },
+  {
+   "id": "369",
+   "src": "CVC-ColonDB/images/369.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10757510377704352407,
+   "notes": [],
+   "area_frac": 0.008494773519163763
+  },
+  {
+   "id": "370",
+   "src": "CVC-ColonDB/images/370.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10758635972733528725,
+   "notes": [],
+   "area_frac": 0.007888501742160279
+  },
+  {
+   "id": "371",
+   "src": "CVC-ColonDB/images/371.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10757506220176009877,
+   "notes": [],
+   "area_frac": 0.006038327526132405
+  },
+  {
+   "id": "372",
+   "src": "CVC-ColonDB/images/372.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10757505945299151509,
+   "notes": [],
+   "area_frac": 0.00626829268292683
+  },
+  {
+   "id": "373",
+   "src": "CVC-ColonDB/images/373.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10757505928119282325,
+   "notes": [],
+   "area_frac": 0.006860627177700349
+  },
+  {
+   "id": "374",
+   "src": "CVC-ColonDB/images/374.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10757510403474942609,
+   "notes": [],
+   "area_frac": 0.007191637630662021
+  },
+  {
+   "id": "375",
+   "src": "CVC-ColonDB/images/375.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10757514797225560725,
+   "notes": [],
+   "area_frac": 0.007163763066202091
+  },
+  {
+   "id": "376",
+   "src": "CVC-ColonDB/images/376.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13062786060393335445,
+   "notes": [],
+   "area_frac": 0.00789198606271777
+  },
+  {
+   "id": "377",
+   "src": "CVC-ColonDB/images/377.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13062781524908010165,
+   "notes": [],
+   "area_frac": 0.008818815331010452
+  },
+  {
+   "id": "378",
+   "src": "CVC-ColonDB/images/378.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13063907064037076663,
+   "notes": [],
+   "area_frac": 0.008069686411149826
+  },
+  {
+   "id": "379",
+   "src": "CVC-ColonDB/images/379.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 10792412969665129113,
+   "notes": [],
+   "area_frac": 0.006930313588850174
+  },
+  {
+   "id": "380",
+   "src": "CVC-ColonDB/images/380.png",
+   "width": 574,
+   "height": 500,
+   "img_mode": "RGB",
+   "phash": 13103870080894323612,
+   "notes": [],
+   "area_frac": 0.007264808362369338
+  }
+ ]
+}

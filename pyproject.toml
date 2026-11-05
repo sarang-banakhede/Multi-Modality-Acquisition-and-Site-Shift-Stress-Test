@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-modality-acquisition-and-site-shift-stress-test"
+version = "0.1.0"
+description = "Clean performance as a predictor of robustness in medical image segmentation under SSIM-calibrated degradation and site shift"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Sarang Banakhede"}]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.4",
+    "torchvision",
+    "monai==1.6.0",
+    "timm==1.0.30",
+    "segmentation-models-pytorch==0.5.0",
+    "transformers>=5.19",
+    "einops==0.8.2",
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "scikit-image>=0.24",
+    "scikit-learn>=1.5",
+    "statsmodels>=0.14",
+    "pandas>=2.2",
+    "pyarrow>=16",
+    "matplotlib>=3.8",
+    "PyYAML>=6",
+    "tqdm>=4.66",
+    "opencv-python-headless>=4.9",
+    "Pillow>=10",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+shift-stress-test = "shift_stress_test.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["shift_stress_test*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,122 @@
+paths:
+  data: data
+  output: "Multi-Modality Acquisition and Site Shift Stress Test Outputs"
+  splits: splits
+  cache: null
+
+experiment:
+  name: shift_stress_test
+  models: [unet, attention_unet, deeplabv3plus, hrnet, transunet, hiformer, swinunet, segformer]
+  datasets: [isic2016, kvasir_seg, tn3k, refuge2, darwin_cxr]
+  seeds: [0, 1, 2, 3, 4]
+  external:
+    isic2016: ph2
+    kvasir_seg: cvc_colondb
+    tn3k: ddti
+    refuge2: drishti_gs1
+    darwin_cxr: cxr_mont_shen
+  grayscale: [tn3k, darwin_cxr, ddti, cxr_mont_shen]
+  ring_targets: [refuge2, drishti_gs1]
+  pretrained_models: [deeplabv3plus_pt, hrnet_pt, segformer_pt]
+  pretrained_seeds: [0, 1, 2]
+
+data:
+  img_size: 224
+  num_classes: 2
+  limit_per_split: null
+
+train:
+  total_iters: 5000
+  batch_size: 32
+  precision: auto
+  channels_last: true
+  micro_batch: {unet: 16, attention_unet: 16, transunet: 16, deeplabv3plus: 32, hrnet: 32, hiformer: 32, swinunet: 32, segformer: 32}
+  lr: 1.0e-4
+  min_lr: 1.0e-6
+  weight_decay: 0.01
+  betas: [0.9, 0.999]
+  warmup_fraction: 0.05
+  grad_clip: 1.0
+  log_every: 50
+  val_every: 100
+  resume_every: 250
+  trainsub_size: 100
+  augmentation:
+    p_rotate: 0.5
+    p_scale: 0.3
+    scale_range: [0.9, 1.1]
+    p_intensity: 0.3
+    intensity_range: 0.1
+    per_dataset:
+      isic2016: {hflip: true, vflip: true, rot: 30.0}
+      kvasir_seg: {hflip: true, vflip: true, rot: 30.0}
+      tn3k: {hflip: true, vflip: false, rot: 15.0}
+      refuge2: {hflip: true, vflip: true, rot: 30.0}
+      darwin_cxr: {hflip: false, vflip: false, rot: 10.0}
+
+metrics:
+  nsd_tolerance_px: 2.0
+
+degrade:
+  levels: [0.95, 0.90, 0.85, 0.80, 0.75, 0.70, 0.65, 0.60]
+  tolerance: 0.005
+  jpeg_tolerance: 0.02
+  max_iterations: 25
+  coarse_points: 12
+  min_reachable: 0.8
+  chunk_size: 32
+  params:
+    G1: {max: 0.06}
+    G2: {max: 0.80}
+    G3: {min_quality: 1, max_quality: 95}
+    D1: {max: 120, width: [0.001, 0.003]}
+    D2: {min_radius: 0.4, falloff: 0.4}
+    D3: {warm_k: 2500, cool_k: 12000, max_ev: 3.5}
+    E1: {max: 0.20}
+    E2: {max: 0.30, n_blobs: 60}
+    E3: {max: 0.97, full_well: 200, read_noise: 2.0}
+    U1: {max: 1.5, correlation_px: 1.5}
+    U2: {max: 30.0}
+    U3: {max: 0.08, levels: 6}
+    F1: {max: 0.95, gamma: [1.0, 2.0]}
+    F2: {max: 0.95, haze_sigma: 0.1, veil_sigma: 0.005}
+    F3: {max: 0.1, n_blobs: 40, radius: [0.02, 0.08]}
+    X1: {max: 0.99, density: 2.5, n0: 300, electronic: 5.0}
+    X2: {max: 0.45, ramp: 0.5}
+    X3: {max: 6.0, density: 2.5, sigma: 0.1}
+
+infer:
+  batch_size: 64
+  last_checkpoint_sets: [test, external]
+
+gates:
+  repro_train_tolerance: 0.005
+  strict: true
+
+analysis:
+  seed: 2026
+  halves: 20
+  bootstrap_reps: 2000
+  permutation_reps: 10000
+  h3_bootstrap_reps: 100
+  mild_levels: 2
+  min_levels: 3
+  sensitivity_permutations: 1000
+  sensitivity_bootstrap: 200
+  primary_pass_share: 0.9
+  pass_deltas: [0.02, 0.05]
+  loss_tolerances: {dice: [0.02, 0.05], nsd: [0.05, 0.10]}
+  hash_checkpoints: true
+  prereg_extra_files: []
+
+runtime:
+  device: auto
+  gpus: null
+  workers: 10
+  cpu_workers: 1
+  metric_workers: 6
+  cleanup_every: 100
+  overlap_degrade: true
+  time_limit_hours: null
+
+stages: [prepare, train, degrade, infer_val, freeze, infer_test, analyze]

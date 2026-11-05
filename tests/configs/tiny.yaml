@@ -1,0 +1,48 @@
+base: ../../configs/config.yaml
+
+paths:
+  output: /tmp/shift_stress_test_debug
+
+experiment:
+  name: tiny
+  pretrained_models: []
+  datasets: [kvasir_seg, tn3k]
+  seeds: [0, 1, 2]
+
+data:
+  limit_per_split: 12
+
+train:
+  total_iters: 4
+  batch_size: 4
+  micro_batch: {unet: 4, attention_unet: 4, transunet: 4, deeplabv3plus: 4, hrnet: 4, hiformer: 4, swinunet: 4, segformer: 4}
+  warmup_fraction: 0.25
+  log_every: 2
+  val_every: 2
+  resume_every: 2
+  trainsub_size: 6
+
+degrade:
+  chunk_size: 4
+
+infer:
+  batch_size: 8
+
+gates:
+  repro_train_tolerance: 0.5
+  strict: false
+
+analysis:
+  halves: 3
+  bootstrap_reps: 20
+  permutation_reps: 200
+  h3_bootstrap_reps: 0
+  sensitivity_permutations: 100
+  sensitivity_bootstrap: 10
+  hash_checkpoints: false
+
+runtime:
+  device: cpu
+  workers: 6
+  cleanup_every: 2
+  overlap_degrade: false
